@@ -1,6 +1,5 @@
 # Territories
-
-### Displays a list of territories that need to be presented in a hierarchical tree structure
+Displays a list of territories in a hierarchical tree structure
 
 
 
