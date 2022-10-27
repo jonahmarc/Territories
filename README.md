@@ -1,6 +1,5 @@
 # Territories
-
-### Displays a list of territories that need to be presented in a hierarchical tree structure
+Displays a list of territories in a hierarchical tree structure
 
 
 
@@ -9,8 +8,8 @@
 
 ### `cd client`
 
-Go to client directory.
-Result: **<path>/Territories/client**
+Go to client directory. <br />
+Result:   **.../local-path/Territories/client**
 
 ### `npm install`
 
