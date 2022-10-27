@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './login.styles.css';
-import phMap from '../assets/phmap.png';
+import phMap from '../../assets/phmap.png';
 import { Stack, Form, Button} from 'react-bootstrap';
 
 class Login extends React.Component {
@@ -14,7 +14,7 @@ class Login extends React.Component {
                         <img className='image' src={phMap} alt='ph map' />
                     </div>
                     <Stack className='m-0 p-0 justify-content-center'>
-                        <h1>WELCOME BACK</h1>
+                        <h1 className='login_message'>WELCOME BACK</h1>
                         <Form className='login_form'> 
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Control type="email" placeholder="Username" />
