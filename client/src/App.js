@@ -11,12 +11,10 @@ function App() {
 	return (
 		<div>
       <Routes>
-        {
-          user && 
-          <Route path="/" exact element={<Home />} />
-        }
+        {/* { user && <Route path="/" exact element={<Home />} /> } */}
+        {/* <Route path="/" element={<Navigate replace to="/account/login" />} /> */}
         <Route path="/account/login" exact element={<Login />} />
-        <Route path="/" element={<Navigate replace to="/account/login" />} />
+        <Route path="/" exact element={<Home />} />
 		  </Routes>
     </div>
 	);
